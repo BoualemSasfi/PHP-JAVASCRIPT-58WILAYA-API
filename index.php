@@ -88,13 +88,13 @@ $data=[
 		print_r($json_data);
 	}
 	else{
-	$data = ["message" => "ERREUR DE CONNEXION VEUILLEZ VERIFIER LE NOM D-UTILISATEUR ET LE KEY"];
+	$data = ["message" => "ERREUR DE CONNEXION VEUILLEZ VERIFIER LE NOM D\'UTILISATEUR ET LA CLÉ"];
 	$json_data = json_encode($data);
 	print_r($json_data);
 	}
 }
 else{
-	$data = ["message" => "ERREUR DE CONNEXION VEUILLEZ VERIFIER LE NOM D-UTILISATEUR ET LE KEY"];
+	$data = ["message" => "ERREUR DE CONNEXION VEUILLEZ VERIFIER LE NOM D\'UTILISATEUR ET LA CLÉ"];
 	$json_data = json_encode($data);
 	print_r($json_data);
 }
