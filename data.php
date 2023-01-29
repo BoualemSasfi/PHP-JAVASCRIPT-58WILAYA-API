@@ -11,7 +11,7 @@ header("Access-Control-Max-Age: 3600");
 header("Access-Control-Allow-Headers: *");
 
 if(isset($_GET['username']) && isset($_GET['key'])){
-	if ($_GET['username'] === 'alpa' && $_GET['key'] == '12345' ) {
+	if ($_GET['username'] == 'alpa' && $_GET['key'] == '12345' ) {
 
 $data=[
 ["Nom" => "Adrar","Code" => "01"],
