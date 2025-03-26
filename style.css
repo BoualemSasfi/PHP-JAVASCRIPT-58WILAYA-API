@@ -1,0 +1,39 @@
+.mapage{
+    background-color: Lavender;
+    height: 100%;
+    padding-bottom:100px;
+}
+
+#head{
+    text-align: center;
+    padding: 50px;
+}
+
+#logo{
+    width: 100px;
+}
+
+#mydata{
+    background-color:white;
+}
+
+#code{
+    color: DarkGreen;
+}
+
+#nom{
+    color: FireBrick; 
+}
+
+.picture{
+    width: 100px;
+    transition: width 2s;
+}
+
+.picture:hover{
+    width: 300px;
+}
+
+.row{
+    padding: 10px;
+}
